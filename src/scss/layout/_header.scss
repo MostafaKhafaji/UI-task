@@ -1,0 +1,137 @@
+/* Header layout */
+@use "../base/variables" as *;
+@use "../utilities/mixins" as *;
+
+.header {
+  &__top {
+    background-color: $primary-color;
+    color: $white;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+
+  &__top .container {
+    @include flex-between;
+    align-items: center;
+  }
+
+  &__language-location,
+  &__contact {
+    @include flex-between;
+    gap: 1rem;
+  }
+
+  &__language {
+    @include flex-between;
+    gap: 5px;
+  }
+
+  &__location {
+    @include flex;
+    padding: 8px;
+    gap: 5px;
+    background-color: $white;
+    border-radius: $radius;
+    border: none;
+  }
+
+  &__phone,&__email{
+    @include flex;
+    gap: 5px;
+  }
+
+  &__main {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #eee;
+
+    & .container {
+      @include flex-between;
+    }
+  }
+
+  &__logo img {
+    height: 96px;
+  }
+
+  &__search {
+    flex: 1;
+    margin: 0 2rem;
+    width: 400px;
+    max-width: 650px;
+    position: relative;
+    display: none;
+    @include respond(tablet){
+      display: flex;
+      align-items: center;
+
+    }
+  }
+
+  &__search-icon{
+    position: absolute;
+    left: 8px;
+    background-color: $primary-color;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    @include flex-center
+  }
+
+  &__search-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: 999px;
+    border: none;
+    background-color: #f8f8f8;
+    padding-inline-start: 60px;
+    color: $light-gray;
+    font-weight: 500;
+  }
+
+  &__actions {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  &__action {
+    color: $dark-gray;
+    text-decoration: none;
+    font-weight: 500;
+    @include flex-center;
+    gap: 0.25rem;
+  }
+
+  &__nav {
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+  }
+
+  &__menu {
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    @include flex-center;
+    margin-bottom: 40px;
+  }
+
+  &__menu-button{
+    font-size: 0.875rem;
+    color : $dark-gray;
+    @include flex;
+    gap: 0.25rem;
+    border: none;
+    background-color: $primary-color-300;
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 0.5rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: #f36ca6;
+      color: #fff;
+    }
+  }
+}

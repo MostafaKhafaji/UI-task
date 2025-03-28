@@ -1,0 +1,39 @@
+/* Typography styles */
+
+@use './variables' as *;
+@use '../utilities/mixins' as *; 
+
+html {
+  font-size: 12px;
+
+  @include respond(tablet) {
+    font-size: 14px;
+  }
+
+  @include respond(desktop) {
+    font-size: $base-font-size;
+  }
+}
+
+body {
+  font-family: $base-font-family;
+  color: $text-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: $spacing-medium;
+  font-weight: 700;
+}
+
+p {
+  margin-bottom: $spacing-medium;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}

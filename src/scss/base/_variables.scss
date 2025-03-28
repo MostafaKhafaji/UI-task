@@ -1,0 +1,32 @@
+/* Variables */
+
+// Colors
+$primary-color: #EF6498;
+$primary-color-300: #FFCCDF33;
+$primary-color-500: #F9A7C480;
+$secondary-color: #5C347C;
+$secondary-color-300: #9B59B6;
+$text-color: #1E1E1E;
+$light-gray: #8F8F8F;
+$dark-gray: #575757;
+$green-color: #27AE60;
+$green-color-300: #94F5BC;
+$red: #E74C3C;
+$white: #ffffff;
+
+$dark-border-color: #ADADAD40;
+$light-border-color: #DCDCDC;
+$base-font-family: 'Dubai', sans-serif;
+$base-font-size: 16px;
+
+$mobile-breakpoint: 768px;
+$tablet-breakpoint: 1024px;
+$desktop-breakpoint: 1200px;
+
+$spacing-unit: 8px;
+$spacing-small: $spacing-unit;
+$spacing-medium: $spacing-unit * 2;
+$spacing-large: $spacing-unit * 3;
+$spacing-xlarge: $spacing-unit * 4;
+
+$radius: 10px;

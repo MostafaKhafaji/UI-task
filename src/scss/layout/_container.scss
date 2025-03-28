@@ -1,0 +1,22 @@
+/* Container layout */
+@use '../base/variables' as *;
+@use "../utilities/mixins" as *;
+
+.container {
+  max-width: 1440px;
+  padding-right: $spacing-small;
+  padding-left: $spacing-small;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  box-sizing: border-box;
+  
+  @include respond(desktop){
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  @include respond(tablet){
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}

@@ -1,0 +1,13 @@
+/* Default theme */
+@use '../base/variables' as *;
+
+.theme-default {
+  --primary-color: #{$primary-color};
+  --secondary-color: #{$secondary-color};
+  --text-color: #{$text-color};
+  --light-gray: #{$light-gray};
+  --dark-gray: #{$dark-gray};
+  
+  background-color: var(--light-gray);
+  color: var(--text-color);
+}

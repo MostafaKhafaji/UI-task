@@ -1,0 +1,42 @@
+/* Button module */
+@use '../base/variables' as *;
+
+.btn {
+  display: inline-block;
+  padding: $spacing-small $spacing-medium;
+  border-radius: 10px;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  font-size: 0.875rem;
+  &--primary {
+    background-color: $secondary-color-300;
+    color: $white;
+    
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+  
+  &--secondary {
+    background-color: $secondary-color;
+    color: $white;
+    
+    &:hover {
+      background-color: $primary-color-300;
+    }
+  }
+  
+  &--secondary-outline {
+    background-color: transparent;
+    border: 2px solid $secondary-color-300;
+    color: $secondary-color-300;
+    
+    &:hover {
+      background-color: $secondary-color-300;
+      color: white;
+    }
+  }
+}

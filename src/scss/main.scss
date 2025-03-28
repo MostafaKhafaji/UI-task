@@ -1,0 +1,27 @@
+/* Main SCSS file that imports all other files */
+
+/* Base */
+@use './base/reset';
+@use './base/fonts';
+@use './base/typography';
+@use './base/variables' as *;
+@use 'utilities/mixins' as *;
+@use 'utilities/helpers' as *;
+
+/* Layout */
+@use './layout/header';
+@use './layout/footer';
+@use './layout/container';
+
+/* Modules */
+@use './modules/buttons';
+@use './modules/product';
+@use './modules/product-reviews';
+@use './modules/recommendations';
+@use './modules/card';
+
+/* State */
+@use './state/states';
+
+/* Themes */
+@use './themes/default';
