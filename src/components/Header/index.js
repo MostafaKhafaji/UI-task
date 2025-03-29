@@ -42,7 +42,7 @@ export function createHeader() {
 
   <nav class="header__nav">
     <ul class="header__menu">
-      <li class="header__menu-item">  <button class="header__menu-button" onclick="console.log('Skin Care clicked')"class="header__menu-button">Skin Care<img src="/src/assets/icons/arrow.svg" alt="arrow" />   </button></li>
+      <li class="header__menu-item">  <button class="header__menu-button">Skin Care<img src="/src/assets/icons/arrow.svg" alt="arrow" />   </button></li>
       <li class="header__menu-item">   <button class="header__menu-button">Hair Care <img src="/src/assets/icons/arrow.svg" alt="arrow" /> </button></li>
       <li class="header__menu-item">   <button class="header__menu-button">Makeup <img src="/src/assets/icons/arrow.svg" alt="arrow" /> </button></li>
       <li class="header__menu-item">   <button class="header__menu-button">Perfumes<img src="/src/assets/icons/arrow.svg" alt="arrow" />  </button></li>
