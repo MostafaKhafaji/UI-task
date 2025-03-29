@@ -178,9 +178,11 @@
       &--gray {
         background: gray;
       }
+
       &--blue {
         background: blue;
       }
+
       &--green {
         background: green;
       }
@@ -210,6 +212,7 @@
     @include flex-between;
     margin: 1rem 0;
     flex-wrap: wrap;
+
     &-item {
       border-radius: 8px;
       font-size: 1rem;
@@ -218,6 +221,7 @@
       gap: 0.5rem;
       font-weight: 500;
       margin: 0.5rem 0;
+
       img {
         background-color: $primary-color-500;
         width: 32px;

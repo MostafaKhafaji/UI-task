@@ -48,10 +48,6 @@
     margin: 0.5rem 0;
     font-size: 0.95rem;
 
-    &:hover {
-      text-decoration: underline;
-    }
-
     &--external::after {
       content: '↗';
       margin-left: 0.3rem;

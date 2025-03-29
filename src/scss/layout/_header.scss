@@ -103,7 +103,7 @@
   }
 
   &__nav {
-    background-color: #fff;
+    background-color: $white;
     padding: 0.5rem 1rem;
   }
 
@@ -130,8 +130,8 @@
     border-radius: 6px;
     transition: background-color 0.3s ease;
     &:hover {
-      background-color: #f36ca6;
-      color: #fff;
+      background-color: $primary-color;
+      color: $white;
     }
   }
 }

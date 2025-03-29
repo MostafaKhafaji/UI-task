@@ -15,12 +15,12 @@ export function createReviews() {
             <h3 class="product-review__title">Product Overview</h3>
             <p class="product-review__paragraph">
               Tarte Shape Tape Concealer is your best choice for achieving flawless coverage.
-Tarte concealer offers full coverage with a lightweight formula that glides effortlessly onto the skin, making it easy to blend and build.
-Tarte Shape Tape helps you conceal fine lines, wrinkles, dark circles, and signs of fatigue, leaving your skin flawless. </br>
-It nourishes your skin with its mango seed and shea butter ingredients.Tarte Shape Tape Concealer is your best choice for achieving flawless coverage. </br>
-Tarte concealer offers full coverage with a lightweight formula that glides effortlessly onto the skin, making it easy to blend and build. </br>
-Tarte Shape Tape helps you conceal fine lines, wrinkles, dark circles, and signs of fatigue, leaving your skin flawless. </br>
-It nourishes your skin with its mango seed and shea butter ingredients.
+              Tarte concealer offers full coverage with a lightweight formula that glides effortlessly onto the skin, making it easy to blend and build.
+              Tarte Shape Tape helps you conceal fine lines, wrinkles, dark circles, and signs of fatigue, leaving your skin flawless. </br>
+              It nourishes your skin with its mango seed and shea butter ingredients.Tarte Shape Tape Concealer is your best choice for achieving flawless coverage. </br>
+              Tarte concealer offers full coverage with a lightweight formula that glides effortlessly onto the skin, making it easy to blend and build. </br>
+              Tarte Shape Tape helps you conceal fine lines, wrinkles, dark circles, and signs of fatigue, leaving your skin flawless. </br>
+              It nourishes your skin with its mango seed and shea butter ingredients.
             </p>
           </div>
 
@@ -34,7 +34,6 @@ It nourishes your skin with its mango seed and shea butter ingredients.
           </div>
         </div>
       </div>
-
       `;
   
     return reviews;
